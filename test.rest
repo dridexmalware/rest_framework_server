@@ -1,0 +1,19 @@
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"email" : "bingbing123@gmail.com", "password": "bossbing" }
+
+###
+
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{"first_name" : "bingb", "last_name" : "macatangay", "username" : "bossbing123", "email" : "bingbing123@gmail.com", "password" : "bing123"}
+
+###
+
+GET http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: Token 19842030db3af64eb0022e2934dfeec6adc8b79f
+
+{}
